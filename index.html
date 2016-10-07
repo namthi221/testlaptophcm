@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+header
+ { max-width:1370px;
+   height:500px;
+   background-image:url(Images/Laptop-background/background-Home.jpg);
+   margin-left:250px;
+	 
+ }
+
+nav
+ {
+	width:1364px;
+	height:100px;
+	margin-left:250px;
+	float:left;
+	border:solid;
+	position:relative;
+	background-color:#CCC;
+ }
+#MenuDH
+ {
+	width:1200px;
+	height:75px;
+	margin-left:75px;
+	margin-top:10px;
+	padding-top:15px;
+	position:absolute;
+	padding-left:40px;
+	
+	
+	 
+ }
+.TrangDH
+ {
+	 background-color:#000;
+	 color:#FFF;
+	 text-decoration:none;
+	 padding:20px 30px ;
+	 margin-left:40px;
+	 
+	 
+	 
+ }
+.TrangDH:hover
+ {
+    
+	color:#3FF;
+		 
+ }
+ 
+ 
+
+#MenuDH ul li
+{
+	list-style-type:none;
+	display:inline-block;
+	position:relative;
+}
+.MenuCon
+{
+	list-style-type:none; 
+	display:none;
+	position:absolute;
+	background-color:#000;
+	
+}
+.MenuCon li a
+{
+	text-decoration:none;
+	background-color:#000;
+	color:#FFF;
+	text-align:center;
+	font-size:24px;
+	padding:7px 15px;
+	width:130px;
+	
+   
+}
+.MenuCon li
+{
+	list-style-type:none;
+	 padding:7px 15px;
+	
+}
+#MenuDH ul li:hover .MenuCon
+{
+	display:block;
+}
+ .MenuCon 
+{
+    
+    margin: 15px;
+	margin-left:40px;
+	padding-top:10px;
+	width:130px;
+	padding-left:0px;
+	padding-bottom:10px;
+}
+.MenuCon a:hover
+{
+	background-color:#66F;
+	
+}
+section
+{
+	width:1365px;
+	height:900px;
+	background-color:#FFF;
+	margin-left:250px;
+	border:solid;
+	border-color:#666;
+	
+}
+#Search td th
+{
+	border:solid;
+	border-collapse:collapse;
+	
+}
+#Search
+{
+	float:right;
+	margin-top:10px;
+    
+	
+}
+#KhungVien
+{
+	border:solid;
+	width:900px;
+	height:500px;
+	margin-top:200px;
+	margin-left:230px;
+}
+
+
+
+</style>
+</head>
+
+<body>
+  <header><!--Hình Ảnh images--></header>
+  <nav>
+     <!--Menu điều hướng-->
+     <div id="MenuDH">
+        <ul>
+            <li><a href="#" class="TrangDH">Trang Chủ</a></li>
+            <li>
+              <a href="#" class="TrangDH">Hãng LapTop</a>
+                 <ul class="MenuCon" >
+                      <li><a href="#" >ASUS</a></li>
+                      <li><a href="#" >DELL</a></li>
+                      <li><a href="#" >ACER</a></li>
+                      <li><a href="#" >APPLE</a><</li>
+                 </ul>
+            </li>
+            <li><a href="#" class="TrangDH">Phụ Kiện</a>
+                 <ul class="MenuCon" style="width:230px;">
+                      <li><a href="#" >Loa-Tai Nghe</a></li>
+                      <li><a href="#" >Chuột-Bàn Phím</a></li>
+                      <li><a href="#" >Tản Nhiệt</a></li>
+                      <li><a href="#" >Khác...</a><</li>
+                 </ul>
+            </li>
+            <li><a href="#" class="TrangDH">LapTop Cũ</a></li>
+            <li><a href="#" class="TrangDH">Khuyến Mãi</a></li>
+            <li><a href="#" class="TrangDH">Liên Hệ</a></li>
+        </ul>
+     </div>
+      <!--END Menu điều hướng-->
+  </nav>
+  
+  <!--Nội Dung-->
+  <section>
+  <!--Thanh Tìm Kiếm-->
+     <table id="Search">
+       <tr>
+           <td ><input type="text" name="TK" style="width:300px; height:20px;"/></td>
+           <th><input type="button" value="Tìm Kiếm" name="IconTK" style="background-color:#000; color:#FFF; height:25px;"/></th>
+       </tr>
+     </table>
+  <!--END Thanh Tìm Kiếm-->
+     <div id="KhungVien">
+          <table id="Bang_TrangChu">
+              <tr>
+                   <td>
+                   </td>
+              </tr>
+          </table>
+     </div>
+  </section>
+  <!--END Nội Dung-->
+</body>
+</html>
